@@ -1,0 +1,41 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "gilroy";
+}
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+}
+body {
+  overflow-x: hidden;
+  /* overflow: hidden; */ /* This makes the screen lock(like) at the particular view*/
+}
+
+#page1 {
+  background-color: black;
+  height: 100%;
+  width: 100%;
+  /* display: ; */
+}
+
+#page2 {
+  background-color: royalblue;
+  height: 100%;
+  width: 100%;
+  padding: 5vw 0;
+}
+#page3 {
+  background-color: black;
+  height: 100%;
+  width: 100%;
+}
+
+#page2 h1 {
+  font-size: 40vw;
+  font-weight: 600;
+  text-transform: uppercase;
+}

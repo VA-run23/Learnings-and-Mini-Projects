@@ -1,0 +1,46 @@
+@font-face {
+  font-family: Heading;
+  src: url(./Heading-Now-Variable.ttf);
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "gilroy";
+}
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+}
+
+#page1 {
+  height: 100%;
+  width: 200%;
+  background-color: black;
+}
+#page1 h1 {
+  color: white;
+  font-size: 30vw;
+  font-family: Heading;
+  text-transform: uppercase;
+  white-space: nowrap;
+  font-stretch: 260%;
+  font-weight: 999;
+  overflow: hidden;
+  /**/
+  padding-left: 10%;
+}
+
+#page2 {
+  height: 100%;
+  width: 100%;
+  background-color: rgb(255, 221, 227);
+}
+
+#page3 {
+  height: 100%;
+  width: 100%;
+  background-color: blue;
+}
