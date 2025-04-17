@@ -1,1 +1,61 @@
 
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <!-- 
+        Document Declaration and Root Element
+
+        <!DOCTYPE html> : Declares that this document follows HTML5 standards.
+        <html lang="en"> : The root element, setting the primary language to English.
+    -->
+
+    <div id="commit">
+        <!-- 
+            This section explains various Git status indicators:
+
+            - "A" (Added): Status after `git init`.
+            - "AM" (Added & Modified): Status after committing and making further changes.
+            - "M" (Modified - Red): Status when changes are made after staging.
+            - No status shown if no changes are made after commit.
+            - "M" (Modified - Green): Status when modifications are staged.
+        -->
+        <p>This is first line</p>
+        <p>After git init the status is A</p>
+        <p>Just after the above line the status is AM</p>
+        <p>Since after added/stage few changes were made, even after committing the status is showing M (red color)</p>
+        <p>If you commit after staging and do nothing in between, then check status—it will show nothing.</p>
+        <p>If you modify and then stage, then status will be M (in green color)</p>
+    </div>
+
+    <div id="changes">
+        <!-- 
+            Git Change Recognition:
+
+            Git can track changes made within the code. Even within branches, Git recognizes differences.
+            Mixing Hindi and English, this section shows how branches affect commits and visibility.
+        -->
+        <h4>Does Git recognize the change made in between the code? The answer is Yes.</h4>
+        <h5>Hello</h5>
+        <h2>Yeh wala meraBranch mein add kar raha hun</h2>
+        <p>This is inside the master branch, and changes are done in the same line.</p>
+        <p>This is inside the master branch hhh.</p>
+    </div>
+
+    <!--
+        JavaScript Inclusion:
+
+        The script.js file is linked here, likely handling interactions or dynamic behavior.
+        This could be used for highlighting changes or simulating Git commands visually.
+    -->
+    <script src="script.js"></script>
+
+</body>
+
+</html>
